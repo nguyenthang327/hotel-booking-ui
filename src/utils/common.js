@@ -17,7 +17,7 @@ export default {
     cookiesManager.cookies.remove(userCookies.token)
     cookiesManager.cookies.remove(userCookies.user)
   },
-  DOMAIN_URL: 'http://localhost:8000/api/v1/',
+  DOMAIN_URL: 'http://localhost:8091/api/v1/',
   TITLE: 'Hotel Booking App',
   TYPE_ROOM: [
     { name: 'Đơn', value: 1, style: 'color: white; background: green;' },
